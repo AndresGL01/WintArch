@@ -2,4 +2,4 @@
 
 
 # Set a custom Wallpaper
-sudo feh --bg-scale /home/winters/ArchConfig/Wallpapers/ARCH_Orange.png
+sudo feh --bg-scale /home/winters/ArchConfig/WintArch/resources/wpp_arch_orange.png
