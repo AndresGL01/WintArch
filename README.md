@@ -27,10 +27,10 @@ mount /dev/... /mnt
 ### Pacstrap
 Laptop:
 ```shell
-pacstrap /mnt base linux linux-firmware vim dhcpcd wpa_supplicant dialog grub os-prober intel-ucode efibootmgr sudo networkmanager neofetch wifi-menu alacritty netctl 
+pacstrap /mnt base linux linux-firmware vim dhcpcd wpa_supplicant dialog grub os-prober intel-ucode efibootmgr sudo networkmanager neofetch wifi-menu alacritty netctl git
 ```
 PC:
 ```shell
-pacstrap /mnt base linux linux-firmware vim dhcpcd grub os-prober intel-ucode efibootmgr sudo networkmanager neofetch alacritty 
+pacstrap /mnt base linux linux-firmware vim dhcpcd grub os-prober intel-ucode efibootmgr sudo networkmanager neofetch alacritty git
 ```
 
