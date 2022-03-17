@@ -33,3 +33,9 @@ cd $HOME/config
 # Cloning ohmyzsh
 
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# Rebasing .xprofile file
+
+cd $HOME
+
+sudo cp -f config/WintArch/dotfiles/.xprofile ~/.xprofile
