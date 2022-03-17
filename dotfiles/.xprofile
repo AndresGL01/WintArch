@@ -1,9 +1,6 @@
-
-output eDP-1 --primary --mode 1920x1080 
 setxkbmap es &
 nm-applet &
 udiskie -t &
 volumeicon &
-cbatticon &
-feh --bg-scale $HOME/ArchConfig/WintArch/resources/wpp_arch_orange.png &
+feh --bg-scale $HOME/config/WintArch/resources/wpp_arch_orange.png &
 picom -f &
