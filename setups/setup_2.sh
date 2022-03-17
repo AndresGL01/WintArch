@@ -34,6 +34,12 @@ cd $HOME/config
 
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+# Starting services
+
+cd $HOME/config/WintArch/scripts/installers/qtile
+
+./start_services.sh
+
 # Rebasing .xprofile file
 
 cd $HOME
