@@ -30,6 +30,7 @@ from libqtile import bar, layout, widget
 from libqtile.config import Click, Drag, Group, Key, Match, Screen
 from libqtile.lazy import lazy
 from libqtile.utils import guess_terminal
+from libqtile import extension
 
 mod = "mod4"
 terminal = guess_terminal()
@@ -75,7 +76,14 @@ keys = [
     Key([mod], "r", lazy.spawncmd(), desc="Spawn a command using a prompt widget"),
     # Custom Keys
     Key([mod], "f", lazy.spawn("firefox")),
-    Key([mod], "m", lazy.spawn("dmenu_run")),
+    Key([mod], 'r', lazy.run_extension(extension.DmenuRun(
+        dmenu_prompt=">-",
+        dmenu_font="Andika-8",
+        background="#15181a",
+        foreground="#00ff00",
+        selected_background="#079822",
+        selected_foreground="#fff",
+    ))),
 
 ]
 
