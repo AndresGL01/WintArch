@@ -6,7 +6,7 @@
 # dmenu 	 -> file, programs explorer
 # ttf-fira-code	 -> fira code font
 # noto-fonts	 -> mishmash of fonts
-# pulseaudio, pavucontrol, pamixer -> audio tools
+# pulseaudio, pavucontrol, pamixer, alsa-utils-> audio tools
 # arandr 	 -> Screen manager
 # udiskie	 -> Automonter for removable media
 # ntfs-3g	 -> Driver to manipulate disk space
@@ -19,4 +19,4 @@
 # picom	         -> xorg compositor
 # geeqie	 -> light images viewer
 # xorg		 -> visual packages
-sudo pacman -S qtile feh dmenu ttf-fira-code noto-fonts pulseaudio pavucontrol pamixer arandr udiskie ntfs-3g network-manager-applet volumeicon xorg-xinit base-devel ranger glib2 gvfs picom geeqie xorg
+sudo pacman -S qtile feh dmenu ttf-fira-code noto-fonts pulseaudio pavucontrol pamixer arandr udiskie ntfs-3g network-manager-applet volumeicon xorg-xinit base-devel ranger glib2 gvfs picom geeqie xorg alsa-utils
