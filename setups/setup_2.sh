@@ -45,3 +45,11 @@ cd $HOME/config/WintArch/scripts/installers/qtile
 cd $HOME
 
 sudo cp -f config/WintArch/dotfiles/.xprofile ~/.xprofile
+
+# Rebasing grub files
+
+cd $HOME
+
+cd config/WintArch/scripts/installers/grub
+
+./rebase_grub.sh
