@@ -78,7 +78,7 @@ keys = [
     Key([mod], "f", lazy.spawn("firefox")),
     Key([mod], 'm', lazy.run_extension(extension.DmenuRun(
         dmenu_prompt=">-",
-        dmenu_font="Andika-8",
+        dmenu_font="Fira Code Medium",
         background="#15181a",
         foreground="#e0ee0a",
         selected_background="#4a1b5a",
