@@ -76,13 +76,13 @@ keys = [
     Key([mod], "r", lazy.spawncmd(), desc="Spawn a command using a prompt widget"),
     # Custom Keys
     Key([mod], "f", lazy.spawn("firefox")),
-    Key([mod], 'r', lazy.run_extension(extension.DmenuRun(
+    Key([mod], 'm', lazy.run_extension(extension.DmenuRun(
         dmenu_prompt=">-",
         dmenu_font="Andika-8",
         background="#15181a",
-        foreground="#00ff00",
-        selected_background="#079822",
-        selected_foreground="#fff",
+        foreground="#e0ee0a",
+        selected_background="#4a1b5a",
+        selected_foreground="#d107b3",
     ))),
 
 ]
